@@ -1,124 +1,84 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>Fujii Kento</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="自己紹介です">
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>藤井絢斗 | Fujii Kento Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="藤井絢斗の自己紹介ページです。プロフィールやお知らせを掲載しています。">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
-
-<div id="container">
-
-
-<header>
-
-<h1 id="logo"><a href="index.html">Fujii Kento Homepage</a></h1>
-
-</header>
-
-
-<aside id="mainimg">
-<img src="images/1.png" alt="">
-</aside>
-
-
-<div id="contents">
-
-
-<main>
-
-<section>
-
-<h2>お知らせ</h2>
-
-<dl class="new">
-<dt>2024/10/01</dt>
-<dd>ホームページ作成</dd>
-<dt>20XX/00/00</dt>
-<dd>sample</dd>
-</dl>
-
-</section>
-
-<section>
-
-<h2>藤井絢斗</h2>
-<!--自己紹介を表形式で-->
-<table class="cv">
-<tr>
-<th>生年月日</th>
-<td>2000年11月02日</td>
-</tr>
-<tr>
-<th>出身地</th>
-<td>岐阜県</td>
-</tr>
-<tr>
-    <th>学歴</th>
-    <td>岐阜大学 工学部 修士</td>
-    </tr>
-</table>
-
-</section>
-
-</main>
-
-
-<!--開閉ブロック-->
-<div id="menubar">
-
-<h3>MENU</h3>
-
-<nav>
-<ul>
-<li><a href="index.html">ホーム</a></li>
-<!-- <li><a href="company.html">会社概要</a></li>
-<li><a href="service.html">サービス紹介</a></li>
-<li><a href="faq.html">よく頂く質問</a></li> -->
-</ul>
-</nav>
-
-</div>
-<!--/#menubar-->
-
-
-</div>
-<!--/#contents-->
-
-
-<footer>
-<small>Copyright&copy; <a href="index.html">Fujii Kento</a> All Rights Reserved.</small>
-<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
-</footer>
-
-
-</div>
-<!--/#container-->
-
-
-<!--ページの上部へ戻るボタン-->
-<div class="pagetop"><a href="#">▲</a></div>
-
-
-<!--開閉ボタン（ハンバーガーアイコン）-->
-<div id="menubar_hdr">
-<div class="menu-icon">
-<span></span><span></span><span></span>
-</div>
-</div>
-
-
-<!--jQueryの読み込み-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-
-<!--このテンプレート専用のスクリプト-->
-<script src="js/main.js"></script>
-
-
+  <div id="container">
+    <header>
+      <h1 id="logo"><a href="index.html">Fujii Kento Homepage</a></h1>
+    </header>
+    <aside id="mainimg">
+      <img src="images/1.png" alt="メイン画像">
+    </aside>
+    <div id="contents">
+      <main>
+        <section>
+          <h2>お知らせ</h2>
+          <dl class="new">
+            <dt><time datetime="2024-10-01">2024/10/01</time></dt>
+            <dd>ホームページを作成しました。</dd>
+            <dt><time datetime="2025-03-06">2025/03/06</time></dt>
+            <dd>
+              DIA2025にて研究奨励賞を受賞しました。<br>
+              <a href="https://www.tc-iaip.org/dia/2025/index.html#award" target="_blank" rel="noopener noreferrer">
+                DIA2025 表彰情報
+              </a>
+            </dd>
+            <dt><time datetime="2026-07-16">2026/07/16</time></dt>
+            <dd>情報を更新しました。</dd>
+          </dl>
+        </section>
+        <section>
+          <h2>藤井 絢斗</h2>
+          <table class="cv">
+            <tr>
+              <th scope="row">生年</th>
+              <td>2000年（平成12年）</td>
+            </tr>
+            <tr>
+              <th scope="row">出身地</th>
+              <td>岐阜県大垣市（水の都）</td>
+            </tr>
+            <tr>
+              <th scope="row">学歴</th>
+              <td>岐阜大学大学院 修士課程</td>
+            </tr>
+            <tr>
+              <th scope="row">趣味</th>
+              <td>ボウリング、DJ、クルマ</td>
+            </tr>
+          </table>
+        </section>
+      </main>
+      <div id="menubar">
+        <h3>MENU</h3>
+        <nav>
+          <ul>
+            <li><a href="index.html">ホーム</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- /#menubar -->
+    </div>
+    <!-- /#contents -->
+    <footer>
+      <small>Copyright &copy; <a href="index.html">Fujii Kento</a> All Rights Reserved.</small>
+      <span class="pr"><a href="https://template-party.com/" target="_blank" rel="noopener noreferrer">《Web Design: Template-Party》</a></span>
+    </footer>
+  </div>
+  <!-- /#container -->
+  <div class="pagetop"><a href="#">▲</a></div>
+  <div id="menubar_hdr">
+    <div class="menu-icon">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
